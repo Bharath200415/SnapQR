@@ -19,7 +19,7 @@ Welcome to the **SnapQR Repository**! This project is dedicated to building a fa
 ## How to Use the Extension on Your System
 
 1. Clone the repository:  
-   `git clone https://github.com/bharath200415/SnapQR`
+   `git clone https://github.com/bharath200415/SnapQR.git/`
 
 2. Navigate to the desired extension folder.
 

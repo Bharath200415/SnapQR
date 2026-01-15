@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "QRity",
+  "version": "1.1",
+  "description": "QR Code Generator extension is a powerful and user-friendly tool designed to make creating and managing QR codes simple and efficient",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html" 
+  }
+}

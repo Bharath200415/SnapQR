@@ -9,7 +9,7 @@ Welcome to the **SnapQR Repository**! This project is dedicated to building a fa
 
 **Icon:** 
 
-<img src="/SnapQR/icon2" alt="Dark Mode Toggle" width="80" height="80"/>
+<img src="/SnapQR/icon2.png" alt="Dark Mode Toggle" width="80" height="80"/>
 
 
 ---

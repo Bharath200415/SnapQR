@@ -16,9 +16,9 @@
 
   <div class="container">
       <nav>
-      <img src="icon2.png" alt="img">
-      <p>SnapQR</p>
-  </nav>
+        <img src="icon2.png" alt="img">
+        <p>SnapQR</p>
+      </nav>
     <div class="tag-line">
       <p>From link to QR Code <br> in a Snap.</p>
     </div>
@@ -28,14 +28,17 @@
     </div>
     <img src="download .png" alt="" id="qr-img">
     <canvas id="qr-canvas" style="display: none;"></canvas>
-
-    <div class="download-btn">
-      <button> Download</button>
-    </div>
-    <div class="copy-btn">
-      <button>Copy</button>
-    </div>
     <div id="toast" class="toast">QR code copied to clipboard!</div>
+    <div class="buttons">  
+      <div class="download-btn">
+        <button> Download</button>
+      </div>
+      <div class="copy-btn">
+        <button>
+          <img src="copyicon.png" alt="copy"/>
+        </button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </div>
 </body>

@@ -58,7 +58,8 @@ btn.addEventListener("click", () => {
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
       copyBtn.style.display = "block";
-      downloadBtn.style.display = "block"; 
+      downloadBtn.style.display = "flex"; 
+      downloadBtn.style.alignItems = "flex-start"; 
     };
   }
 });

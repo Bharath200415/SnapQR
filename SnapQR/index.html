@@ -8,25 +8,27 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Onest:wght@100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
   <div class="container">
       <nav>
-      <img src="icon.png" alt="img">
-      <!-- <p>QRity</p> -->
+      <img src="icon2.png" alt="img">
+      <p>SnapQR</p>
   </nav>
     <div class="tag-line">
-      <h1> Generate Your QR Code</h1>
-      <p>Instantly Create and Share  QR Codes</p>
+      <p>From link to QR Code <br> in a Snap.</p>
     </div>
-    <input type="url" id="url" autocomplete="off" placeholder="Paste url">
+    <input type="url" id="url" autocomplete="off" placeholder="Paste your URL">
+    <div class="gen-btn">
+      <button id="btn"> Generate QR</button>
+    </div>
     <img src="download .png" alt="" id="qr-img">
     <canvas id="qr-canvas" style="display: none;"></canvas>
-    <div class="gen-btn">
-      <button id="btn"> Generate</button>
-    </div>
+
     <div class="download-btn">
       <button> Download</button>
     </div>

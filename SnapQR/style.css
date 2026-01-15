@@ -1,16 +1,16 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: #17161B;
+  background-color: #0F0E12;
   color: white;
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", sans-serif;
   padding: 0px 20px;
 
 }
 
 .container{
   width: 250px;
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,40 +23,37 @@ body{
  
 } 
 
-.tag-line h1 {
-  font-weight: 400;
-  font-size: 30px;
-}
-
 .tag-line p {
-  font-size: 16px;
-  color: #bebebe;
-  margin-top: -10px;
+  font-size: 20px;
+  color: #B7B7B7;
+  font-weight: 450;
+  margin-top: -30px;
 }
 
 .gen-btn {
-  width: 80%;
+  width: 60%;
+  padding:3px 0px;
   text-align: center;
-  background: #B9F500;
-  border-radius: 6px;
+  background: linear-gradient(#29e3ab, #036346);
+  border-radius: 8px;
   cursor: pointer;
 }
 
 .gen-btn button{
-  font-size: 25px;
+  font-size: 18px;
   border: none;
-  background: #B9F500;
-  font-weight: 700;
-  font-family: "Ubuntu", serif;
+  color:white;
+  background: transparent;
   font-weight: 500;
-  cursor: pointer;
+  font-family: "Inter", sans-serif;
 
+  cursor: pointer;
 }
 
 .download-btn {
-  width: 80%;
+  width: 40%;
   text-align: center;
-  background: #B9F500;
+  background: linear-gradient(#29e3ab, #036346);
   border-radius: 6px;
   display: none;
   cursor: pointer;
@@ -65,7 +62,7 @@ body{
 .copy-btn{
   width: 80%;
   text-align: center;
-  background: #B9F500;
+  background: linear-gradient(#29e3ab, #036346);
   border-radius: 6px;
   display: none;
   cursor: pointer;
@@ -74,7 +71,7 @@ body{
 .copy-btn button{
   font-size: 25px;
   border: none;
-  background: #B9F500;
+  background: linear-gradient(#29e3ab, #036346);
   font-weight: 700;
   font-family: "Ubuntu", serif;
   font-weight: 500;
@@ -85,11 +82,17 @@ body{
 .download-btn button{
   font-size: 25px;
   border: none;
-  background: #B9F500;
+  background: linear-gradient(#29e3ab, #036346);
   font-weight: 700;
   font-family: "Ubuntu", serif;
   font-weight: 500;
   cursor: pointer;
+}
+
+::placeholder{
+  color:#979393;
+  font-size: medium;
+  font-weight: 100;
 }
 
 input {
@@ -97,8 +100,10 @@ input {
   width: 71%;
   height: 38px;
   padding: 0px 20px;
-  border-radius: 6px;
+
+  border-radius: 10px;
   outline: none;
+  margin-top:-12px;
   font-size: 16px;
 }
 
@@ -106,13 +111,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: start;
-  font-size: 20px;
-  padding: 15px 10px;
+  font-family: "Geist", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom:25px;
 }
 
 
 nav img {
- width: 30px;
+ width: 70px;
  margin-right:10px;
 }
 

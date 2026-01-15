@@ -1,5 +1,5 @@
 body{
-  margin: 0px;
+  margin-top: -20px;
   padding: 0px;
   background-color: #0F0E12;
   color: white;
@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 250px;
+  width: 255px;
   height: 500px;
   display: flex;
   flex-direction:column;
@@ -24,7 +24,7 @@ body{
 } 
 
 .tag-line p {
-  font-size: 20px;
+  font-size: 18.5px;
   color: #B7B7B7;
   font-weight: 450;
   margin-top: -30px;
@@ -32,10 +32,11 @@ body{
 
 .gen-btn {
   width: 60%;
-  padding:3px 0px;
+  padding:5px 0px;
+  margin-top: 7px;
   text-align: center;
   background: linear-gradient(#29e3ab, #036346);
-  border-radius: 8px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
@@ -57,6 +58,7 @@ body{
 .copy-btn{
   padding-top:7px ;
   width: 60%;
+
   background: linear-gradient(#29e3ab, #036346);
   border-radius: 8px;
   display: none;
@@ -76,7 +78,8 @@ body{
 .download-btn {
   width: 100%;
   margin-left:15px;
-  padding:7px 8px;
+  padding:5px 8px;
+  margin-top: 2px;
   display:flex;
   justify-content: flex-start;
   text-align: center;
@@ -108,8 +111,7 @@ input {
   width: 71%;
   height: 38px;
   padding: 0px 20px;
-
-  border-radius: 10px;
+  border-radius: 6px;
   outline: none;
   margin-top:-12px;
   font-size: 16px;
@@ -127,8 +129,8 @@ nav {
 
 
 nav img {
- width: 70px;
- margin-right:10px;
+ width: 60px;
+ margin-right:8px;
 }
 
 
@@ -151,4 +153,37 @@ nav img {
 .toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 7px;
+}
+
+.footer p{
+  font-size: 12px;
+  color: #B7B7B7;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.footer a:hover {
+  transform: scale(1.1);
+}
+
+.footer a svg {
+  transition: fill 0.2s ease;
+}
+
+.footer a:hover svg {
+  fill: #29e3ab;
 }
